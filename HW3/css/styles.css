@@ -1,0 +1,147 @@
+/* Universal selector */
+* {
+	border-radius: 15px;
+}
+
+/* Type Selectors */
+body {
+	width: 90%;
+	margin: 0 auto;
+	background-color: #e1e8f0;
+}
+	
+h2 {
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+	padding: 0.5%;
+}
+
+ul { 
+	padding: 2%;
+	background-color: white;
+	margin: 0px;
+	border-radius: 0px;
+}
+
+li {
+	text-align: left;
+	padding: 1%;
+	font-family: 'Roboto', sans-serif;
+}
+
+footer {
+	background-color: white;
+	color: #659DBD;
+	padding: 5px 5px;
+  	margin: 0;
+  	border-radius: 0px;
+  	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	clear: both;
+}
+
+h3 { 
+   position: absolute; 
+   top: 0px; 
+   width: 90%; 
+  padding: 5%;
+   text-align: center;
+   font-size: 20px;
+   font-family: 'Roboto', sans-serif;
+   text-decoration: underline;
+}
+
+
+/* ID Selector */
+
+#feature {
+	background-color: #659DBD;
+	padding-top: 0px;
+	border-radius: 0px;
+}
+
+
+/* Class Selectors */
+
+.column1, .column2, .column3 {
+	text-align: center;
+	float: left;
+	margin: 1%;
+	color: white;
+	padding: 1%;
+	overflow: auto;
+}
+
+.column1 {
+	background-color: #357EC7;
+	width: 23.2%;
+
+}
+
+.column2 {
+	background-color: #4682b4;
+	width: 47.2%;
+
+}
+
+.column3 {
+	background-color: #737CA1;
+	width: 17.2%;
+
+}
+
+.circlePic {
+  	width: 120px;
+ 	height: 120px;
+  	transform: rotate(90deg);
+  	border-radius: 100px;
+  	float: left;
+ 	margin-right: 6px;
+ 	padding-top: 0.5%;
+ 	margin-left: 0.5%;
+}
+
+.homeworkText, .createdByText {
+	font-family: 'Indie Flower', cursive;
+	color: white;
+	font-weight: bold;
+	display: inline;
+}
+
+.homeworkText {
+	font-size: 35px;
+	text-align: right;
+}
+
+.createdByText {
+	font-size: 20px;
+	color: #357EC7;
+}
+
+.whiteBackground {
+	background-color: white;
+	border-radius: 0px;
+}
+
+.top {
+	display: inline;
+	padding: 0.5em;
+}
+
+.roboto {
+	font-family: 'Roboto', sans-serif;
+}
+
+.overlay {
+	clear: both;
+	position: relative; 
+    width: 100%;
+}
+
+.samplePic {
+	    border-radius: 0px;
+	    width: 100%;
+	    height: 30%;
+	    opacity: 0.5;
+}
+
